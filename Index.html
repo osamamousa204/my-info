@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My info</title>
+
+    
+</head>
+<body style= "background-color: rgb(20, 18, 18);">
+    <header style="width: 900px;  margin: 30px auto ; box-shadow: 15px 10px 12px darkgoldenrod; ">
+        <h1 style="background-color: rgb(33, 33, 163) ; color: bisque; padding:5px ; margin: 5px auto;text-align: center; font-size: 35px; border: 3px solid rgb(243, 235, 235);"">class-01</h1>
+    </header>
+    <main style="width: 800px; background-color: cornflowerblue; border: 8px solid darkblue;
+     margin: 20px auto; box-shadow: 12px 10px 8px rgb(241, 6, 6);">
+        <p style="background-color: blue ; padding:5px ; margin: 5px auto;text-align: center; font-size: 35px; border: 3px solid rgb(243, 235, 235);">
+        what's your name?
+        </p>
+        <p style="background-color: rgb(255, 60, 0) ; padding:5px ; margin: 5px auto; ; text-align: center; font-size: 35px; border: 3px solid rgb(243, 235, 235);">
+        Do you like science
+        </p>
+        <p style="background-color: rgb(229, 255, 0) ; padding:5px ; margin: 5px auto;text-align: center; font-size: 35px; border: 3px solid rgb(243, 235, 235);">
+        which subject do you like most?(phicics/biology/chemistry/geography)
+        </p>
+        <p style="background-color: rgb(204, 0, 255) ;padding:5px ; margin: 5px auto;text-align: center; font-size: 35px; border: 3px solid rgb(243, 235, 235);">
+        what is the most thing you find interisting in that subject?
+        </p>
+    </main>
+    <footer>
+
+    </footer>
+
+
+
+    <script>
+        var name = prompt("what's your name?");
+        
+        var science = prompt("Do you like science(yes/no)");
+        while (science !== "yes") {
+            science = prompt("please say yes becuse the idea of the code require that hhhh")
+        }
+
+        var fav = prompt("which subject do you like most?(physics/biology/chemistry/geography)");
+        while (fav !== "physics" && fav !== "biology" && fav !== "chemistry" && fav !== "geography"   ) {
+            fav = prompt("please type a correct value(physics/biology/chemistry/geography)")}
+
+        var int = prompt(" what is the most thing you find interisting in that subject?");
+        alert("name: " + name + " & you like science: " + science + "  fav: " + fav + "   "+ int )
+
+    </script>
+</body>
+</html>
